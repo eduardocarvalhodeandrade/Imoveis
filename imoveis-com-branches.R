@@ -9,7 +9,7 @@ Imoveis$imposto_anual[Imoveis$preco < Imoveis$imposto_anual] = NA
 ImoveisLimpos = na.omit(Imoveis)
 #2- Gráficos
 
-#insira Gráficos aqui.
+hist(ImoveisLimpos$metragem, xlab = "Metros", ylab = "Frequência", breaks = 6, main = "Frequência da Metragem dos Imoveis", col = "red")
 
 #3- Medidas
 
