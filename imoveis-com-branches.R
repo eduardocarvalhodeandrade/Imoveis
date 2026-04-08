@@ -13,5 +13,6 @@ ImoveisLimpos = na.omit(Imoveis)
 
 #3- Medidas
 
-#insira Medidas aqui.
-
+MediaImpostAnual = mean(ImoveisLimpos$imposto_anual)
+MedianaImpostAnual = median(ImoveisLimpos$imposto_anual)
+DesvioImpostoAnual = sd(ImoveisLimpos$imposto_anual)
